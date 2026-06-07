@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.container{
+    background: linear-gradient(90deg, #000333 0%, #00d8e7 100%);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 30 00px;
+    margin: 0 auto;
+}
+
+.container .intro{
+    text-align: center;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border:#ffffff solid 2px;
+    padding: 20px;
+}
+
+.container .intro img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-top: 20px;
+    object-fit: cover;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container .intro h1{
+    color: #ffffff;
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.sence{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border:#ffffff solid 2px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.sence h2{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sence p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sence p:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.settings{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border:#ffffff solid 2px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.settings h2{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.settings p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.settings p:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.map{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border:#ffffff solid 2px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.map h2{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.map p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.map p:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 14px;
+}
